@@ -1,6 +1,0 @@
-Flask==2.2.2
-Flask_Cors==3.0.10
-pandas==1.4.3
-gunicorn
-regex
-scikit_learn
