@@ -4,8 +4,8 @@ import pickle
 import re
 
 app = Flask(__name__)
-cos_matrix = pickle.load(open("anime_recommendation.pkl", "rb"))
 dataframe = pickle.load(open("anime_dataframe.pkl", "rb"))
+cos_matrix = pickle.load(open("anime_recommendation.pkl", "rb"))
 
 @app.route("/")
 @cross_origin()
